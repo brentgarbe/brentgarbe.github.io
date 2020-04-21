@@ -1,0 +1,71 @@
+/* giving the body a dark background to better see the bright colored boxes */
+body{
+    background: lightgray;
+  }
+
+h1{ 
+    font-size: 50px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 35px;
+    text-align: center;
+}
+
+.picture {
+    width: 550px;
+}
+
+.picture1 {
+    width: 750px;
+}
+
+.picture2 {
+    width: 540px;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar{
+    background: lightblue;
+    padding: 10px;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li{
+    display: inline-block;
+    padding: 7px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: rgb(110, 112, 121);
+    border-radius: 3.5px;
+}
+
+.navbar li1{
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* border-radius: 3px; */
+}
+
+
+/* Getting rid of the default link styles here */
+.navbar li a{
+    color:white;
+    text-decoration: none;
+}
+
+
+@media (max-width: 762px) {
+    .container {
+      max-width: 762px;
+    }
+  }
+  
+
